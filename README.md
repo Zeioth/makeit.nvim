@@ -1,4 +1,4 @@
-# [Makeit.nvim](https://github.com/Zeioth/makeit.nvim)
+# (You can) [Makeit.nvim](https://github.com/Zeioth/makeit.nvim)
 List all of your `Makefile` options on Telescope. Then it run the selected option asynchronously with overseer.
 
 <div align="center">
