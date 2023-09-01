@@ -1,5 +1,5 @@
 # (You can) [Makeit.nvim](https://github.com/Zeioth/makeit.nvim)
-List all of your `Makefile` options on Telescope and run the selected option.
+List all commands defined in your `Makefile` and run the one you select.
 
 <div align="center">
   <a href="https://discord.gg/ymcMaSnq7d" rel="nofollow">
