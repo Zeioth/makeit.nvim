@@ -1,0 +1,24 @@
+*makeit.txt*                                          A makeit for neovim.
+
+==============================================================================
+Table of Contents                                  *markmap-table-of-contents*
+
+1. makeit.nvim                                                       |makeit|
+  - Installation                                        |makeit-installation|
+  - Dependencies                                        |makeit-dependencies|
+  - How to install                                    |makeit-how-to-install|
+  - Commands                                                |makeit-commands|
+  - Mappings                                                |makeit-mappings|
+  - How to use                                            |makeit-how-to-use|
+  - How to create a solution                                |makeit-commands|
+  - FAQ                                                          |makeit-faq|
+
+==============================================================================
+1. makeit.nvim                                                    *makeit*
+
+WIP - Help needed to convert README.md to .txt
+
+      In the meantime you can use `:h makeit.md`
+      to read the help in markdown format.
+
+      Or visit: https://github.com/Zeioth/makeit.nvim
