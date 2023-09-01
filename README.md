@@ -37,3 +37,8 @@ lazy.nvim package manager
 | `:MakeitToggleResults` | Open or close the compiler results. |
 | `:MakeitRedo` | Redo the last selected option. |
 | `:MakeitStop` | Dispose all tasks. |
+
+
+## Screenshots
+![screenshot_2023-09-01_10-20-30_465268693](https://github.com/Zeioth/makeit.nvim/assets/3357792/29a373c1-6d19-49fb-95a6-f350a16b1c41)
+![screenshot_2023-09-01_10-20-37_056327408](https://github.com/Zeioth/makeit.nvim/assets/3357792/5041f518-05d3-4458-8999-d8d274a4b3b2)
