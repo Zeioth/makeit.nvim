@@ -5,13 +5,13 @@ local M = {}
 function M.show()
 
   -- dependencies
-  conf = require("telescope.config").values
-  actions = require "telescope.actions"
-  state = require "telescope.actions.state"
-  pickers = require "telescope.pickers"
-  finders = require "telescope.finders"
-  utils = require("makeit.utils")
-  options = utils.get_makefile_options(utils.os_path(vim.fn.getcwd() .. "/Makefile"))
+  local conf = require("telescope.config").values
+  local actions = require "telescope.actions"
+  local state = require "telescope.actions.state"
+  local pickers = require "telescope.pickers"
+  local finders = require "telescope.finders"
+  local utils = require("makeit.utils")
+  local options = utils.get_makefile_options(utils.os_path(vim.fn.getcwd() .. "/Makefile"))
 
   --- On option selected → Run action depending of the language
   local function on_option_selected(prompt_bufnr)

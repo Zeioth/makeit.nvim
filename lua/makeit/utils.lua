@@ -6,7 +6,7 @@ local M = {}
 --- Given a string, convert 'slash' to 'inverted slash' if on windows, and vice versa on UNIX.
 -- Then return the resulting string.
 ---@param path string
----@return string
+---@return string|nil,nil
 function M.os_path(path)
   if path == nil then return nil end
   -- Get the platform-specific path separator
@@ -17,7 +17,7 @@ end
 --- Given a path, open the file, extract all the Makefile keys,
 --  and return them as a list.
 ---@param path string
----@return list options A telescope options list like
+---@return table options A telescope options list like
 --{ { text: "1 - all", value="all" }, { text: "2 - hello", value="hello" } ...}
 function M.get_makefile_options(path)
   local options = {}
