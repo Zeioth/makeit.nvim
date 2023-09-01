@@ -45,4 +45,7 @@ lazy.nvim package manager
 | `:MakeitRedo` | Redo the last selected option. |
 | `:MakeitStop` | Dispose all tasks. |
 
+## FAQ
 
+* Do this plugin support any operative system?
+Yes, as long as you are can run `make` on your terminal, [makeit.nvim](https://github.com/Zeioth/makeit.nvim) will be able to use it.
