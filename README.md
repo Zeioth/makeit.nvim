@@ -1,8 +1,8 @@
 # [Makeit.nvim](https://github.com/Zeioth/makeit.nvim)
-Detect the project Makefile and show all options on Telescope so the user can select them visually. It is a user friendly replacement for `:make myoption`
+This plugin list all of your `Makefile` options on Telescope.
 
 ## When should I use this plugin?
-For simple scenarios, or border cases where [compiler.nvim](https://github.com/Zeioth/compiler.nvim) doesn't suit your needs.
+When you prefer to manually write the commands to build and run your project, instead of using [compiler.nvim](https://github.com/Zeioth/compiler.nvim).
 
 ## How to install
 lazy.nvim package manager
