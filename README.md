@@ -1,4 +1,4 @@
-# [Makeme.nvim](https://github.com/Zeioth/makeit.nvim)
+# [Makeit.nvim](https://github.com/Zeioth/makeit.nvim)
 Detect the project Makefile and show all options on Telescope so the user can select them visually. It is a user friendly replacement for `:make myoption`
 
 ## This project is in conceptual phase!
