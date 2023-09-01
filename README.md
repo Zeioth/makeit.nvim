@@ -42,7 +42,7 @@ lazy.nvim package manager
 | Command | Description|
 |--|--|
 | `:MakeitOpen` | Shows all the options defined in your Makefile. |
-| `:MakeitToggleResults` | Open or close the compiler results. |
+| `:MakeitToggleResults` | Open or close the results of running your makefile. |
 | `:MakeitRedo` | Redo the last selected option. |
 | `:MakeitStop` | Dispose all tasks. |
 
