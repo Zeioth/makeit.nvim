@@ -1,5 +1,5 @@
 # [Makeit.nvim](https://github.com/Zeioth/makeit.nvim)
-List all of your `Makefile` options on Telescope. Then it runs the selected option with overseer.
+List all of your `Makefile` options on Telescope. Then it run the selected option with overseer.
 
 ## When should I use this plugin?
 In scenarios where you prefer to manually write your own commands to build and run your project, instead of using [compiler.nvim](https://github.com/Zeioth/compiler.nvim).
