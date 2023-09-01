@@ -1,4 +1,4 @@
-# (You can) [makeit.nvim](https://github.com/Zeioth/makeit.nvim)
+# You can [makeit.nvim](https://github.com/Zeioth/makeit.nvim)
 List all commands defined in your `Makefile` and run the one you select.
 
 ## Screenshots
