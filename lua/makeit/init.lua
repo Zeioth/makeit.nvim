@@ -17,7 +17,9 @@ M.setup = function(ctx)
   cmd("MakeitRedo", function()
     -- If the user didn't select an option yet, send a notification.
     if _G.makeit_redo == nil then
-      vim.notify("Open makeit and select an option before doing redo.", vim.log.levels.INFO)
+      vim.notify("Open makeit and select an option before doing redo.", vim.log.levels.INFO, {
+        title = "Makeit.nvim"
+      })
       return
     end
     -- Redo
@@ -25,7 +27,9 @@ M.setup = function(ctx)
   end, { desc = "Redo the last selected makeit option" })
 
   cmd("MakeitStop", function()
-    vim.notify("SUCCESS - All tasks have been disposed.", vim.log.levels.INFO)
+    vim.notify("SUCCESS - All tasks have been disposed.", vim.log.levels.INFO, {
+      title = "Compiler.nvim"
+    })
     local overseer = require("overseer")
     local tasks = overseer.list_tasks({ unique = false })
     for _, task in ipairs(tasks) do
