@@ -4,6 +4,13 @@ List all of your `Makefile` options on Telescope. Then it run the selected optio
 ## When should I use this plugin?
 In scenarios where you prefer to manually write your own commands to build and run your project, instead of using [compiler.nvim](https://github.com/Zeioth/compiler.nvim).
 
+## Screenshots
+makeit.nvim list the options of our project `Makefile`
+![screenshot_2023-09-01_10-20-30_465268693](https://github.com/Zeioth/makeit.nvim/assets/3357792/29a373c1-6d19-49fb-95a6-f350a16b1c41)
+By selecting an option, we can see the result.
+![screenshot_2023-09-01_10-20-37_056327408](https://github.com/Zeioth/makeit.nvim/assets/3357792/5041f518-05d3-4458-8999-d8d274a4b3b2)
+
+
 ## How to install
 lazy.nvim package manager
 ```lua
@@ -39,8 +46,3 @@ lazy.nvim package manager
 | `:MakeitStop` | Dispose all tasks. |
 
 
-## Screenshots
-makeit.nvim list the options of our project `Makefile`
-![screenshot_2023-09-01_10-20-30_465268693](https://github.com/Zeioth/makeit.nvim/assets/3357792/29a373c1-6d19-49fb-95a6-f350a16b1c41)
-By selecting an option, we can see the result.
-![screenshot_2023-09-01_10-20-37_056327408](https://github.com/Zeioth/makeit.nvim/assets/3357792/5041f518-05d3-4458-8999-d8d274a4b3b2)
