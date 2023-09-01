@@ -33,7 +33,7 @@ lazy.nvim package manager
 
 | Command | Description|
 |--|--|
-| `:MakeitOpen` | Shows the adecuated compiler for your buffer's filetype. |
+| `:MakeitOpen` | Shows all the options defined in your Makefile. |
 | `:MakeitToggleResults` | Open or close the compiler results. |
 | `:MakeitRedo` | Redo the last selected option. |
 | `:MakeitStop` | Dispose all tasks. |
