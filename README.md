@@ -1,7 +1,7 @@
 # [Makeit.nvim](https://github.com/Zeioth/makeit.nvim)
 Detect the project Makefile and show all options on Telescope so the user can select them visually. It is a user friendly replacement for `:make myoption`
 
-## When should I use this project?
+## When should I use this plugin?
 For simple scenarios, or border cases where [compiler.nvim](https://github.com/Zeioth/compiler.nvim) doesn't suit your needs.
 
 ## How to install
