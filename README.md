@@ -48,4 +48,4 @@ lazy.nvim package manager
 ## FAQ
 
 * **Do this plugin support any operative system?**
-YES: as long as you are can run the commands `make` and `echo` on your terminal, [makeit.nvim](https://github.com/Zeioth/makeit.nvim) will be able to use them.
+YES: As long as you are can run the commands `make` and `echo` on your terminal, [makeit.nvim](https://github.com/Zeioth/makeit.nvim) will be able to use them.
