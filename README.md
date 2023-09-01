@@ -1,4 +1,4 @@
-# You can [makeit.nvim](https://github.com/Zeioth/makeit.nvim)
+# You can [makeit.nvim](https://github.com/Zeioth/makeit.nvim) ❤️
 Neovim plugin to run Makefile commands with Telescope 
  
 ## Screenshots
