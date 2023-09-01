@@ -1,6 +1,6 @@
 -- On neovim you can run
 -- :checkhealth makeit
--- To know possible causes in case makeit.nvim is nor working correctly.
+-- To know possible causes in case makeit.nvim is not working correctly.
 
 local M = {}
 
@@ -31,9 +31,14 @@ function M.check()
 
   local programs = {
     {
-      cmd = "echo",
-      type = "wart",
-      msg = "You don't need anything to use makeit.nvim: Enjoy!",
+      cmd = "make",
+      type = "error",
+      msg = "The command 'make' is not available on your system.",
+    },
+    {
+      cmd = "warn",
+      type = "error",
+      msg = "The command 'echo' is not available on your system.",
     },
   }
 
