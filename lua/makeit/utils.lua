@@ -51,7 +51,6 @@ function M.get_makefile_options(path)
        title = "Makeit.nvim",})
     end
 
-  print(vim.inspect(options))
     return options
 
 end
