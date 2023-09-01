@@ -7,6 +7,7 @@ In scenarios where you prefer to manually write your own commands to build and r
 ## Screenshots
 [Makeit.nvim](https://github.com/Zeioth/makeit.nvim) list the options defined on your project `Makefile`
 ![screenshot_2023-09-01_10-20-30_465268693](https://github.com/Zeioth/makeit.nvim/assets/3357792/29a373c1-6d19-49fb-95a6-f350a16b1c41)
+
 By selecting an option, we can see the result without in a clear way.
 ![screenshot_2023-09-01_10-20-37_056327408](https://github.com/Zeioth/makeit.nvim/assets/3357792/5041f518-05d3-4458-8999-d8d274a4b3b2)
 
