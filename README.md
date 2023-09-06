@@ -1,5 +1,5 @@
 # You can [makeit.nvim](https://github.com/Zeioth/makeit.nvim) ❤️
-Neovim Makefile plugin to run commands with Telescope
+Neovim Makefile plugin with Telescope
 
 ## Screenshots
 [Makeit.nvim](https://github.com/Zeioth/makeit.nvim) list the options defined on your project `Makefile`
