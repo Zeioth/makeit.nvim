@@ -1,4 +1,4 @@
-local token_types = require "src.token_types"
+local token_types = require "parser.token_types"
 local M = {
   position = 0,
   column = 0,
