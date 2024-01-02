@@ -1,0 +1,12 @@
+DOCKER_COMP = docker compose
+
+.DEFAULT_GOAL = help
+.PHONY        : help build up start down logs sh composer vendor sf cc test
+
+## —— Docker 🐳 ————————————————————————————————————————————————————————————————
+build: ## Builds the Docker images
+	@$(DOCKER_COMP) build
+
+build-cache: ## Builds the Docker
+	@$(DOCKER_COMP) build --pull --no-cache
+

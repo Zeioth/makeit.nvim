@@ -1,3 +1,0 @@
-[submodule "lua/parser"]
-	path = lua/parser
-	url = git@github.com:SobolevWladimir/makefile_parser_lua.git

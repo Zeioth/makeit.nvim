@@ -10,7 +10,7 @@ local M = {}
 function M.os_path(path)
   if path == nil then return nil end
   -- Get the platform-specific path separator
-  local separator = package.config:sub(1,1)
+  local separator = package.config:sub(1, 1)
   return string.gsub(path, '[/\\]', separator)
 end
 
@@ -21,9 +21,12 @@ end
 --{ { text: "1 - all", value="all" }, { text: "2 - hello", value="hello" } ...}
 function M.get_makefile_options(path)
   local options = {}
+  vim.notify(path)
+
 
   -- Open the Makefile for reading
-  local file = io.open(path, "r")
+  local file   = io.open(path, "r")
+  local parser = require('parser.src.parser')
 
   if file then
     local in_target = false
