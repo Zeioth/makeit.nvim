@@ -59,6 +59,3 @@ YES: As long as you can run the commands `make` and `echo` on your terminal, [ma
 * [Compiler.nvim](https://github.com/Zeioth/compiler.nvim)
 * [Markmap.nvim](https://github.com/Zeioth/dooku.nvim)
 * [Dooku.nvim](https://github.com/Zeioth/dooku.nvim)
-
-## Metadata
-neovim-plugin
