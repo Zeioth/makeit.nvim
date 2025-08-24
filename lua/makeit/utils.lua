@@ -2,7 +2,6 @@
 
 local M = {}
 
-
 --- Given a string, convert 'slash' to 'inverted slash' if on windows, and vice versa on UNIX.
 -- Then return the resulting string.
 ---@param path string
@@ -10,8 +9,8 @@ local M = {}
 function M.os_path(path)
   if path == nil then return nil end
   -- Get the platform-specific path separator
-  local separator = package.config:sub(1,1)
-  return string.gsub(path, '[/\\]', separator)
+  local separator = package.config:sub(1, 1)
+  return string.gsub(path, "[/\\]", separator)
 end
 
 --- Given a path, open the file, extract all the Makefile keys,
@@ -32,7 +31,7 @@ function M.get_makefile_options(path)
     -- Iterate through each line in the Makefile
     for line in file:lines() do
       -- Check for lines starting with a target rule (e.g., "target: dependencies")
-      local target = line:match "^(.-):"
+      local target = line:match("^([%.%w_-]+):")
       if target then
         in_target = true
         count = count + 1
