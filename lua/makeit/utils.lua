@@ -35,12 +35,14 @@ function M.get_makefile_options(path)
       local target = line:match "^(.-):"
       if target then
         in_target = true
-        count = count + 1
-        -- Exclude the ":" and add the option to the list with text and value fields
-        table.insert(
-          options,
-          { text = count .. " - " .. target, value = target }
-        )
+        if target ~= ".PHONY" then
+          count = count + 1
+          -- Exclude the ":" and add the option to the list with text and value fields
+          table.insert(
+            options,
+            { text = count .. " - " .. target, value = target }
+          )
+        end
       elseif in_target then
         -- If we're inside a target block, stop adding options
         in_target = false
